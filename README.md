@@ -41,7 +41,8 @@ Build the driver with the following command:
 
 Copy the systemd service file to `/etc/systemd/system/halo_vkbd.service`,
 executable file `halo_kbd` to `/usr/local/bin/halo_kbd`,
-and keymap file `yogabook1.map` to `/usr/local/etc/halo_keyboard/yogabook1.map`.
+keymap file `yogabook1.map` to `/usr/local/etc/halo_keyboard/yogabook1.map` and
+control keymap file `ctrlword.map` to `/usr/local/etc/halo_keyboard/ctrlword.map`.
 Then, Start the service with `systemctl enable --now halo_vkbd.service`.
 
 ## Currently Supported Features
